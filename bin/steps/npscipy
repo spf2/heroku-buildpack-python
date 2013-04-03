@@ -13,9 +13,9 @@ VENDORED_GIT_REPO="git://github.com/wyn/${VENDORED_GIT_NAME}.git"
 # The location of the pre-compiled atlas/lapack/blas/gfortran binaries.
 VENDORED_BINARIES="npscipy"
 # the location of the bdist of numpy
-VENDORED_NUMPY="numpy-1.6.1"
+VENDORED_NUMPY="numpy-1.7.0"
 # the location of the bdist of scipy
-VENDORED_SCIPY="scipy-0.10.1"
+VENDORED_SCIPY="scipy-0.11.0"
 
 # If numpy or scipy exists within requirements.txt then use binaries.
 if (grep -iq -e "numpy" -e "scipy" setup.py) then
